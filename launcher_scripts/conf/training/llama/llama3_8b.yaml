@@ -169,7 +169,7 @@ model:
     num_workers: 2
     dataloader_type: single
     reset_position_ids: false
-    reset_attention_mask: false
+    reset_attention_mask: true
     eod_mask_loss: false
     index_mapping_dir: null
     data_prefix:
